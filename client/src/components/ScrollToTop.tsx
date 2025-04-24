@@ -32,7 +32,7 @@ export function ScrollToTop() {
           onClick={scrollToTop}
           size="icon"
           className="gradient-bg hover:opacity-90 rounded-full h-12 w-12 shadow-lg hover:shadow-primary/30"
-          aria-label="Scroll to top"
+          aria-label="Voltar ao topo"
         >
           <ChevronUp className="h-6 w-6" />
         </Button>

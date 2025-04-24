@@ -8,8 +8,8 @@ export function Contact() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Get in Touch</h2>
-            <p className="text-gray-300">Have questions about our Tax Calculator? Our team is here to help. Reach out to us and we'll get back to you as soon as possible.</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Entre em Contato</h2>
+            <p className="text-gray-300">Tem perguntas sobre nossa Calculadora de Impostos? Nossa equipe está aqui para ajudar. Entre em contato conosco e responderemos o mais rápido possível.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
@@ -18,20 +18,20 @@ export function Contact() {
                 <Mail className="h-6 w-6 text-primary" />
               </div>
               <h4 className="font-medium text-white text-lg mb-2">Email</h4>
-              <p className="text-gray-400">support@taxcalculator.com</p>
+              <p className="text-gray-400">contato@calculadoradeimposto.com.br</p>
             </div>
             
             <div className="bg-background rounded-xl p-8 border border-gray-800 shadow-lg flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6">
                 <Phone className="h-6 w-6 text-primary" />
               </div>
-              <h4 className="font-medium text-white text-lg mb-2">Phone</h4>
-              <p className="text-gray-400">+1 (555) 123-4567</p>
+              <h4 className="font-medium text-white text-lg mb-2">Telefone</h4>
+              <p className="text-gray-400">(11) 4321-8765</p>
             </div>
           </div>
           
           <div className="mt-16 text-center">
-            <h4 className="font-medium text-white text-xl mb-6">Follow Us</h4>
+            <h4 className="font-medium text-white text-xl mb-6">Siga-nos</h4>
             <div className="flex justify-center space-x-6">
               <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-300">
                 <Facebook className="h-6 w-6" />
