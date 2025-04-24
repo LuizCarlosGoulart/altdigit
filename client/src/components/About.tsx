@@ -48,12 +48,7 @@ export function About() {
               </div>
             </div>
             
-            <div className="mt-10">
-              <a href="#" className="text-primary hover:text-primary/80 font-medium flex items-center transition-colors duration-300">
-                Learn more about our features
-                <ArrowRight className="h-5 w-5 ml-2" />
-              </a>
-            </div>
+
           </div>
           
           <div className="order-1 lg:order-2">

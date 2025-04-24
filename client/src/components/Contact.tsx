@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Mail, Phone, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 import React from "react";
 
 export function Contact() {
@@ -12,7 +12,7 @@ export function Contact() {
             <p className="text-gray-300">Have questions about our Tax Calculator? Our team is here to help. Reach out to us and we'll get back to you as soon as possible.</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
             <div className="bg-background rounded-xl p-8 border border-gray-800 shadow-lg flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6">
                 <Mail className="h-6 w-6 text-primary" />
@@ -27,14 +27,6 @@ export function Contact() {
               </div>
               <h4 className="font-medium text-white text-lg mb-2">Phone</h4>
               <p className="text-gray-400">+1 (555) 123-4567</p>
-            </div>
-            
-            <div className="bg-background rounded-xl p-8 border border-gray-800 shadow-lg flex flex-col items-center text-center">
-              <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6">
-                <MapPin className="h-6 w-6 text-primary" />
-              </div>
-              <h4 className="font-medium text-white text-lg mb-2">Address</h4>
-              <p className="text-gray-400">123 Tax Street, Suite 456<br />San Francisco, CA 94105</p>
             </div>
           </div>
           

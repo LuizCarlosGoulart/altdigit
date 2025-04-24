@@ -57,12 +57,7 @@ export function Testimonials() {
           ))}
         </div>
         
-        <div className="mt-16 text-center">
-          <a href="#" className="text-primary hover:text-primary/80 font-medium flex items-center justify-center transition-colors duration-300">
-            View all testimonials
-            <ArrowRight className="h-5 w-5 ml-2" />
-          </a>
-        </div>
+
       </div>
     </section>
   );

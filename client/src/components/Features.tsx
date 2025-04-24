@@ -65,11 +65,7 @@ export function Features() {
           ))}
         </div>
         
-        <div className="mt-16 text-center">
-          <Button size="lg" className="gradient-bg hover:opacity-90">
-            Explore All Features
-          </Button>
-        </div>
+
       </div>
     </section>
   );
