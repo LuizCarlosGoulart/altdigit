@@ -27,7 +27,7 @@ export function About() {
                 <CheckCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="ml-3">
                   <h4 className="font-medium text-white">Interface Amigável</h4>
-                  <p className="text-gray-400 mt-1">Design intuitivo que torna os cálculos de impostos acessíveis a todos, independentemente do conhecimento tributário.</p>
+                  <p className="text-gray-400 mt-1">Design intuitivo que torna os cálculos de impostos imobiliários acessíveis a todos, independentemente do conhecimento tributário.</p>
                 </div>
               </div>
               
@@ -43,7 +43,7 @@ export function About() {
                 <CheckCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="ml-3">
                   <h4 className="font-medium text-white">Acesso Multi-Plataforma</h4>
-                  <p className="text-gray-400 mt-1">Acesse suas informações fiscais em qualquer dispositivo, a qualquer hora, em qualquer lugar.</p>
+                  <p className="text-gray-400 mt-1">Acesse a calculadora imobiliária em qualquer dispositivo, a qualquer hora, em qualquer lugar.</p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ export function About() {
               <div className="relative rounded-xl overflow-hidden">
                 <img 
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
-                  alt="Calculadora de impostos em uso" 
+                  alt="Calculadora imobiliária em uso" 
                   className="w-full h-auto rounded-xl"
                 />
               </div>

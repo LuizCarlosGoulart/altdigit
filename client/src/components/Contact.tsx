@@ -9,7 +9,7 @@ export function Contact() {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Entre em Contato</h2>
-            <p className="text-gray-300">Tem perguntas sobre nossa Calculadora de Impostos? Nossa equipe está aqui para ajudar. Entre em contato conosco e responderemos o mais rápido possível.</p>
+            <p className="text-gray-300">Tem perguntas sobre nossa Calculadora Imobiliária? Nossa equipe está aqui para ajudar. Entre em contato conosco e responderemos o mais rápido possível.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
@@ -18,7 +18,7 @@ export function Contact() {
                 <Mail className="h-6 w-6 text-primary" />
               </div>
               <h4 className="font-medium text-white text-lg mb-2">Email</h4>
-              <p className="text-gray-400">contato@calculadoradeimposto.com.br</p>
+              <p className="text-gray-400">contato@calculadoraimobiliaria.com.br</p>
             </div>
             
             <div className="bg-background rounded-xl p-8 border border-gray-800 shadow-lg flex flex-col items-center text-center">

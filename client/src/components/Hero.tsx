@@ -61,7 +61,7 @@ export function Hero() {
               <div className="relative bg-background border border-gray-700 rounded-xl shadow-2xl overflow-hidden">
                 <img 
                   src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=450&q=80" 
-                  alt="Prévia do painel da calculadora de impostos" 
+                  alt="Prévia do painel da calculadora imobiliária" 
                   className="w-full h-auto"
                 />
               </div>

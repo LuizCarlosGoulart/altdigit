@@ -20,8 +20,8 @@ export function CTA() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="bg-zinc-900 rounded-2xl p-8 md:p-12 lg:p-16 border border-gray-800 shadow-2xl">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Pronto para Simplificar Sua Experiência com Impostos?</h2>
-            <p className="text-xl text-gray-300 mb-10">Junte-se a milhares de usuários satisfeitos que transformaram seu processo de preparação de impostos.</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Pronto para Calcular o Imposto do Seu Imóvel?</h2>
+            <p className="text-xl text-gray-300 mb-10">Junte-se a milhares de usuários satisfeitos que simplificaram seus cálculos de impostos imobiliários.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="gradient-bg hover:opacity-90">
                 Compre Agora
