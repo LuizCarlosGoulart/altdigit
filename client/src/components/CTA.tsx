@@ -24,7 +24,7 @@ export function CTA() {
             <p className="text-xl text-gray-300 mb-10">Junte-se a milhares de usuários satisfeitos que simplificaram seus cálculos de impostos imobiliários.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="gradient-bg hover:opacity-90">
-                Compre Agora
+              <a href="https://chk.eduzz.com/801EDDQAW7" className="px-8">Compre Agora</a>
               </Button>
               <Button 
                 size="lg" 

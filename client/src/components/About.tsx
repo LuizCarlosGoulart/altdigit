@@ -1,8 +1,9 @@
 import { ArrowRight, CheckCircle } from "lucide-react";
+import calculadora from "@/assets/calculadora.gif"
 
 const stats = [
   { value: "98%", label: "Satisfação do Cliente" },
-  { value: "50K+", label: "Usuários Ativos" },
+  { value: "5K+", label: "Usuários" },
   { value: "R$50M+", label: "Economia em Impostos" },
   { value: "24/7", label: "Suporte ao Cliente" }
 ];
@@ -34,16 +35,16 @@ export function About() {
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="ml-3">
-                  <h4 className="font-medium text-white">Atualizações Contínuas</h4>
-                  <p className="text-gray-400 mt-1">Nosso sistema é continuamente atualizado para refletir as leis e regulamentos tributários mais recentes.</p>
+                  <h4 className="font-medium text-white">Precisão nos cálculos</h4>
+                  <p className="text-gray-400 mt-1">Nosso sistema realiza os cálculos com máxima precisão estando de acordo com as leis e regulamentos tributários mais recentes.</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="ml-3">
-                  <h4 className="font-medium text-white">Acesso Multi-Plataforma</h4>
-                  <p className="text-gray-400 mt-1">Acesse a calculadora imobiliária em qualquer dispositivo, a qualquer hora, em qualquer lugar.</p>
+                  <h4 className="font-medium text-white">Fácil instalação</h4>
+                  <p className="text-gray-400 mt-1">Instale em segundos: após a compra, você receberá um e-mail com o arquivo – é só baixar e começar a usar!</p>
                 </div>
               </div>
             </div>
@@ -56,7 +57,7 @@ export function About() {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-secondary rounded-xl blur opacity-30"></div>
               <div className="relative rounded-xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
+                  src={calculadora}
                   alt="Calculadora imobiliária em uso" 
                   className="w-full h-auto rounded-xl"
                 />

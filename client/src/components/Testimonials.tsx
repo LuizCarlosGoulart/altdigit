@@ -3,15 +3,15 @@ import { StarIcon } from "lucide-react";
 
 const testimonials = [
   {
-    content: "A Calculadora de Impostos transformou completamente a forma como lido com meus impostos. É intuitiva, precisa e me economiza horas de trabalho. O recurso de buscador de deduções por si só me economizou milhares de reais!",
+    content: "A Alt Digit transformou completamente a forma como calculo os impostos na venda dos meus imóveis. É intuitiva, precisa e me economiza horas de trabalho. O recurso de simulação de valores por si só me economizou milhares de reais!",
     author: "Miguel Roberto",
-    role: "Proprietário de Pequena Empresa",
+    role: "Investidor Imobiliário",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=64&h=64&q=80"
   },
   {
-    content: "Como freelancer, acompanhar os impostos sempre foi minha maior dor de cabeça. Desde que comecei a usar a Calculadora de Impostos, consegui me concentrar no meu trabalho em vez de me preocupar com a temporada fiscal.",
+    content: "Como contadora, fazer o cálculo dos impostos sempre foi minha maior dor de cabeça. Desde que comecei a usar a Calculadora Imobiliária, consegui economizar muito tempo do meu trabalho.",
     author: "Sara Oliveira",
-    role: "Designer Freelancer",
+    role: "Contadora",
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=64&h=64&q=80"
   },
   {

@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { AvatarGroup } from "@/components/ui/avatar-group";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import Art1 from "../assets/Art1.png";
 
 export function Hero() {
   const scrollToAbout = () => {
@@ -28,7 +29,7 @@ export function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" className="gradient-bg hover:opacity-90" asChild>
-                <a href="#" className="px-8">Adquira a Calculadora</a>
+                <a href="https://chk.eduzz.com/801EDDQAW7" className="px-8">Adquira a Calculadora</a>
               </Button>
               <Button size="lg" variant="outline" onClick={scrollToAbout} className="border-gray-700 hover:border-primary text-gray-300 hover:text-white">
                 Saiba Mais
@@ -60,7 +61,7 @@ export function Hero() {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-secondary rounded-xl blur opacity-30"></div>
               <div className="relative bg-background border border-gray-700 rounded-xl shadow-2xl overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=450&q=80" 
+                  src={Art1} 
                   alt="Prévia do painel da calculadora imobiliária" 
                   className="w-full h-auto"
                 />

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "wouter";
-import { Monitor } from "lucide-react";
+import logo from "@/assets/logo.svg"
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useMobile } from "@/hooks/use-mobile";
@@ -56,8 +56,8 @@ export function Header() {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2 text-xl font-bold text-white">
-              <Monitor className="h-8 w-8 text-primary" />
-              <span>Calc<span className="gradient-text">Imobiliária</span></span>
+              <img src={logo} alt="Logo AltDigit" className="h-8 w-8" />
+              <span>Alt<span className="gradient-text">Digit</span></span>
             </Link>
           </div>
           
@@ -78,7 +78,7 @@ function DesktopNav({ activeSection, scrollToSection }: { activeSection: string,
       {navLinks.map((link) => (
         <a
           key={link.id}
-          href={`#${link.id}`}
+          href={`${link.id}`}
           onClick={(e) => {
             e.preventDefault();
             scrollToSection(link.id);
@@ -93,7 +93,7 @@ function DesktopNav({ activeSection, scrollToSection }: { activeSection: string,
       ))}
       
       <Button className="gradient-bg hover:from-primary hover:to-secondary">
-        Comprar Agora
+        <a href="https://chk.eduzz.com/801EDDQAW7" className="px8">Comprar Agora</a>
       </Button>
     </nav>
   );
@@ -128,7 +128,7 @@ function MobileNav({ activeSection, scrollToSection }: { activeSection: string, 
             </a>
           ))}
           
-          <Button className="mt-4 w-full gradient-bg hover:from-primary hover:to-secondary">
+          <Button asChild className="mt-4 w-full gradient-bg hover:from-primary hover:to-secondary">
             Comprar Agora
           </Button>
         </div>
