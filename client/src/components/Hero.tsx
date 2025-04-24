@@ -21,7 +21,7 @@ export function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-8">
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-              Simplifique Seus Impostos com Nossa <span className="gradient-text">Calculadora Inteligente</span>
+              Imóvel vendido? Saiba o imposto em 1 clique com nossa <span className="gradient-text">Calculadora Imobiliária</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-lg">
               Elimine o estresse da temporada fiscal com nossa calculadora intuitiva. Economize tempo, dinheiro e evite erros custosos.
@@ -51,7 +51,7 @@ export function Hero() {
                 </Avatar>
               </AvatarGroup>
               <div>
-                <p className="text-gray-300"><span className="text-white font-medium">4,9/5</span> de mais de 2.000 avaliações</p>
+                <p className="text-gray-300"><span className="text-white font-medium">4,9/5</span> de mais de 5.000 usuários satisfeitos</p>
               </div>
             </div>
           </div>
