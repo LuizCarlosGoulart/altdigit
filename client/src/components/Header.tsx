@@ -57,7 +57,7 @@ export function Header() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center gap-2 text-xl font-bold text-white">
               <Monitor className="h-8 w-8 text-primary" />
-              <span>Calc<span className="gradient-text">Imposto</span></span>
+              <span>Calc<span className="gradient-text">Imobiliária</span></span>
             </Link>
           </div>
           

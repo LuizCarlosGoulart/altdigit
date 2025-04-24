@@ -13,14 +13,14 @@ export function About() {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-background to-zinc-900 opacity-70"></div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Sobre a Calculadora de Impostos</h2>
-          <p className="text-gray-300">Nossa missão é simplificar os cálculos de impostos para indivíduos e empresas, tornando a temporada fiscal livre de estresse e eficiente.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Sobre a Calculadora Imobiliária</h2>
+          <p className="text-gray-300">Nossa missão é simplificar os cálculos de impostos imobiliários, tornando o processo de venda de imóveis livre de estresse e eficiente.</p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-bold mb-6">Projetado para Todos</h3>
-            <p className="text-gray-300 mb-6">Seja você um freelancer, proprietário de pequena empresa ou contribuinte individual, nossa Calculadora de Impostos se adapta às suas necessidades específicas.</p>
+            <p className="text-gray-300 mb-6">Seja você um proprietário, investidor imobiliário ou corretor de imóveis, nossa Calculadora Imobiliária se adapta às suas necessidades específicas.</p>
             
             <div className="space-y-4">
               <div className="flex items-start">
