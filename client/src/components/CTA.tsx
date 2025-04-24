@@ -5,7 +5,7 @@ export function CTA() {
     const contactSection = document.getElementById('contact');
     if (contactSection) {
       window.scrollTo({
-        top: contactSection.offsetTop - 80,
+        top: (contactSection as HTMLElement).offsetTop - 80,
         behavior: 'smooth'
       });
     }
@@ -20,11 +20,11 @@ export function CTA() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="bg-zinc-900 rounded-2xl p-8 md:p-12 lg:p-16 border border-gray-800 shadow-2xl">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Simplify Your Tax Experience?</h2>
-            <p className="text-xl text-gray-300 mb-10">Join thousands of satisfied users who have transformed their tax preparation process.</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Pronto para Simplificar Sua Experiência com Impostos?</h2>
+            <p className="text-xl text-gray-300 mb-10">Junte-se a milhares de usuários satisfeitos que transformaram seu processo de preparação de impostos.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="gradient-bg hover:opacity-90">
-                Get Started Now
+                Comece Agora
               </Button>
               <Button 
                 size="lg" 
@@ -32,7 +32,7 @@ export function CTA() {
                 className="border-gray-700 hover:border-primary text-gray-300 hover:text-white"
                 onClick={scrollToContact}
               >
-                Contact Us
+                Contate-nos
               </Button>
             </div>
           </div>

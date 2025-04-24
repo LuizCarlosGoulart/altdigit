@@ -21,17 +21,17 @@ export function Hero() {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="w-full lg:w-1/2 space-y-8">
             <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-              Simplify Your Taxes with Our <span className="gradient-text">Smart Calculator</span>
+              Simplifique Seus Impostos com Nossa <span className="gradient-text">Calculadora Inteligente</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-lg">
-              Take the stress out of tax season with our intuitive calculator. Save time, money, and avoid costly mistakes.
+              Elimine o estresse da temporada fiscal com nossa calculadora intuitiva. Economize tempo, dinheiro e evite erros custosos.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" className="gradient-bg hover:opacity-90" asChild>
-                <a href="#" className="px-8">Try Tax Calculator</a>
+                <a href="#" className="px-8">Experimente a Calculadora</a>
               </Button>
               <Button size="lg" variant="outline" onClick={scrollToAbout} className="border-gray-700 hover:border-primary text-gray-300 hover:text-white">
-                Learn More
+                Saiba Mais
                 <ArrowRight className="h-5 w-5 ml-2" />
               </Button>
             </div>
@@ -51,7 +51,7 @@ export function Hero() {
                 </Avatar>
               </AvatarGroup>
               <div>
-                <p className="text-gray-300"><span className="text-white font-medium">4.9/5</span> from over 2,000 reviews</p>
+                <p className="text-gray-300"><span className="text-white font-medium">4,9/5</span> de mais de 2.000 avaliações</p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ export function Hero() {
               <div className="relative bg-background border border-gray-700 rounded-xl shadow-2xl overflow-hidden">
                 <img 
                   src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=450&q=80" 
-                  alt="Tax calculator dashboard preview" 
+                  alt="Prévia do painel da calculadora de impostos" 
                   className="w-full h-auto"
                 />
               </div>

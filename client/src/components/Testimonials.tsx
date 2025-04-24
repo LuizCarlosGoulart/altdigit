@@ -3,21 +3,21 @@ import { StarIcon } from "lucide-react";
 
 const testimonials = [
   {
-    content: "Tax Calculator has completely transformed how I handle my taxes. It's intuitive, accurate, and saves me hours of work. The deduction finder feature alone saved me thousands of dollars!",
-    author: "Michael Roberts",
-    role: "Small Business Owner",
+    content: "A Calculadora de Impostos transformou completamente a forma como lido com meus impostos. É intuitiva, precisa e me economiza horas de trabalho. O recurso de buscador de deduções por si só me economizou milhares de reais!",
+    author: "Miguel Roberto",
+    role: "Proprietário de Pequena Empresa",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=64&h=64&q=80"
   },
   {
-    content: "As a freelancer, keeping track of taxes was always my biggest headache. Since I started using Tax Calculator, I've been able to focus on my work instead of worrying about tax season.",
-    author: "Sarah Johnson",
-    role: "Freelance Designer",
+    content: "Como freelancer, acompanhar os impostos sempre foi minha maior dor de cabeça. Desde que comecei a usar a Calculadora de Impostos, consegui me concentrar no meu trabalho em vez de me preocupar com a temporada fiscal.",
+    author: "Sara Oliveira",
+    role: "Designer Freelancer",
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=64&h=64&q=80"
   },
   {
-    content: "The customer support team is exceptional. They helped me understand complex tax situations and guided me through the entire process. I'm extremely satisfied with the service.",
-    author: "David Chang",
-    role: "Corporate Executive",
+    content: "A equipe de suporte ao cliente é excepcional. Eles me ajudaram a entender situações fiscais complexas e me guiaram durante todo o processo. Estou extremamente satisfeito com o serviço.",
+    author: "Daniel Santos",
+    role: "Executivo Corporativo",
     avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=64&h=64&q=80"
   }
 ];
@@ -27,8 +27,8 @@ export function Testimonials() {
     <section className="py-24 bg-zinc-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">What Our Users Say</h2>
-          <p className="text-gray-300 max-w-2xl mx-auto">Don't just take our word for it. See what our users have to say about their experience with Tax Calculator.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">O Que Nossos Usuários Dizem</h2>
+          <p className="text-gray-300 max-w-2xl mx-auto">Não acredite apenas em nossa palavra. Veja o que nossos usuários têm a dizer sobre sua experiência com a Calculadora de Impostos.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -56,7 +56,6 @@ export function Testimonials() {
             </div>
           ))}
         </div>
-        
 
       </div>
     </section>

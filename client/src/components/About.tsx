@@ -1,10 +1,10 @@
 import { ArrowRight, CheckCircle } from "lucide-react";
 
 const stats = [
-  { value: "98%", label: "Customer Satisfaction" },
-  { value: "50K+", label: "Active Users" },
-  { value: "$10M+", label: "Tax Savings" },
-  { value: "24/7", label: "Customer Support" }
+  { value: "98%", label: "Satisfação do Cliente" },
+  { value: "50K+", label: "Usuários Ativos" },
+  { value: "R$50M+", label: "Economia em Impostos" },
+  { value: "24/7", label: "Suporte ao Cliente" }
 ];
 
 export function About() {
@@ -13,37 +13,37 @@ export function About() {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-background to-zinc-900 opacity-70"></div>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">About Tax Calculator</h2>
-          <p className="text-gray-300">Our mission is to simplify tax calculations for individuals and businesses alike, making tax season stress-free and efficient.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Sobre a Calculadora de Impostos</h2>
+          <p className="text-gray-300">Nossa missão é simplificar os cálculos de impostos para indivíduos e empresas, tornando a temporada fiscal livre de estresse e eficiente.</p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
-            <h3 className="text-2xl font-bold mb-6">Designed for Everyone</h3>
-            <p className="text-gray-300 mb-6">Whether you're a freelancer, small business owner, or individual taxpayer, our Tax Calculator adapts to your specific needs.</p>
+            <h3 className="text-2xl font-bold mb-6">Projetado para Todos</h3>
+            <p className="text-gray-300 mb-6">Seja você um freelancer, proprietário de pequena empresa ou contribuinte individual, nossa Calculadora de Impostos se adapta às suas necessidades específicas.</p>
             
             <div className="space-y-4">
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="ml-3">
-                  <h4 className="font-medium text-white">User-Friendly Interface</h4>
-                  <p className="text-gray-400 mt-1">Intuitive design that makes tax calculations accessible to everyone, regardless of tax knowledge.</p>
+                  <h4 className="font-medium text-white">Interface Amigável</h4>
+                  <p className="text-gray-400 mt-1">Design intuitivo que torna os cálculos de impostos acessíveis a todos, independentemente do conhecimento tributário.</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="ml-3">
-                  <h4 className="font-medium text-white">Continuous Updates</h4>
-                  <p className="text-gray-400 mt-1">Our system is continuously updated to reflect the latest tax laws and regulations.</p>
+                  <h4 className="font-medium text-white">Atualizações Contínuas</h4>
+                  <p className="text-gray-400 mt-1">Nosso sistema é continuamente atualizado para refletir as leis e regulamentos tributários mais recentes.</p>
                 </div>
               </div>
               
               <div className="flex items-start">
                 <CheckCircle className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div className="ml-3">
-                  <h4 className="font-medium text-white">Multi-Platform Access</h4>
-                  <p className="text-gray-400 mt-1">Access your tax information on any device, anytime, anywhere.</p>
+                  <h4 className="font-medium text-white">Acesso Multi-Plataforma</h4>
+                  <p className="text-gray-400 mt-1">Acesse suas informações fiscais em qualquer dispositivo, a qualquer hora, em qualquer lugar.</p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ export function About() {
               <div className="relative rounded-xl overflow-hidden">
                 <img 
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" 
-                  alt="Tax calculator in use" 
+                  alt="Calculadora de impostos em uso" 
                   className="w-full h-auto rounded-xl"
                 />
               </div>

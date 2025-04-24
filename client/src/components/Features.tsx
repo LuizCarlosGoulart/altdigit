@@ -11,33 +11,33 @@ import {
 const features = [
   {
     icon: <LineChart className="h-7 w-7 text-primary" />,
-    title: "Accurate Calculations",
-    description: "Get precise tax calculations based on the latest tax laws and regulations. Never worry about miscalculations again."
+    title: "Cálculos Precisos",
+    description: "Obtenha cálculos fiscais precisos com base nas leis e regulamentos tributários mais recentes. Nunca mais se preocupe com erros de cálculo."
   },
   {
     icon: <ShieldCheck className="h-7 w-7 text-primary" />,
-    title: "Secure & Private",
-    description: "Your financial data is encrypted and never shared. We prioritize your privacy and security above all else."
+    title: "Seguro e Privado",
+    description: "Seus dados financeiros são criptografados e nunca compartilhados. Priorizamos sua privacidade e segurança acima de tudo."
   },
   {
     icon: <Clock className="h-7 w-7 text-primary" />,
-    title: "Time-Saving",
-    description: "Complete your tax calculations in minutes, not hours. Our intuitive interface makes filing taxes quick and easy."
+    title: "Economia de Tempo",
+    description: "Complete seus cálculos fiscais em minutos, não horas. Nossa interface intuitiva torna o preenchimento de impostos rápido e fácil."
   },
   {
     icon: <Shield className="h-7 w-7 text-primary" />,
-    title: "Maximum Deductions",
-    description: "Discover all eligible deductions to minimize your tax liability. Our system ensures you don't miss any opportunities to save."
+    title: "Máximo de Deduções",
+    description: "Descubra todas as deduções elegíveis para minimizar sua carga tributária. Nosso sistema garante que você não perca nenhuma oportunidade de economizar."
   },
   {
     icon: <Database className="h-7 w-7 text-primary" />,
-    title: "Data Integration",
-    description: "Easily import data from various financial sources. Seamlessly integrate with banking, investment, and accounting platforms."
+    title: "Integração de Dados",
+    description: "Importe facilmente dados de várias fontes financeiras. Integre perfeitamente com plataformas bancárias, de investimento e contabilidade."
   },
   {
     icon: <Headphones className="h-7 w-7 text-primary" />,
-    title: "Expert Support",
-    description: "Get assistance whenever you need it. Our tax experts are available to help with any questions or concerns."
+    title: "Suporte Especializado",
+    description: "Obtenha assistência sempre que precisar. Nossos especialistas em impostos estão disponíveis para ajudar com quaisquer dúvidas ou preocupações."
   }
 ];
 
@@ -46,8 +46,8 @@ export function Features() {
     <section className="py-24 bg-zinc-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Why Choose Our Tax Calculator</h2>
-          <p className="text-gray-300 max-w-2xl mx-auto">Our tax calculator is designed with you in mind, offering the perfect blend of simplicity and powerful features.</p>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Por Que Escolher Nossa Calculadora de Impostos</h2>
+          <p className="text-gray-300 max-w-2xl mx-auto">Nossa calculadora de impostos foi projetada pensando em você, oferecendo a mistura perfeita de simplicidade e recursos poderosos.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -64,7 +64,6 @@ export function Features() {
             </div>
           ))}
         </div>
-        
 
       </div>
     </section>
