@@ -24,7 +24,7 @@ export function Hero() {
               Imóvel vendido? Saiba o imposto em 1 clique com nossa <span className="gradient-text">Calculadora Imobiliária</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-lg">
-              Elimine o estresse da temporada fiscal com nossa calculadora intuitiva. Economize tempo, dinheiro e evite erros custosos.
+              Economize tempo, dinheiro e evite erros custosos.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" className="gradient-bg hover:opacity-90" asChild>
