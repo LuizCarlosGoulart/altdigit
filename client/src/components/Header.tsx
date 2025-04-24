@@ -93,7 +93,7 @@ function DesktopNav({ activeSection, scrollToSection }: { activeSection: string,
       ))}
       
       <Button className="gradient-bg hover:from-primary hover:to-secondary">
-        Começar Agora
+        Comprar Agora
       </Button>
     </nav>
   );
@@ -129,7 +129,7 @@ function MobileNav({ activeSection, scrollToSection }: { activeSection: string, 
           ))}
           
           <Button className="mt-4 w-full gradient-bg hover:from-primary hover:to-secondary">
-            Começar Agora
+            Comprar Agora
           </Button>
         </div>
       </SheetContent>

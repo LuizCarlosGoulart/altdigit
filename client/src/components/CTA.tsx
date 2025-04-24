@@ -24,7 +24,7 @@ export function CTA() {
             <p className="text-xl text-gray-300 mb-10">Junte-se a milhares de usuários satisfeitos que transformaram seu processo de preparação de impostos.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="gradient-bg hover:opacity-90">
-                Comece Agora
+                Compre Agora
               </Button>
               <Button 
                 size="lg" 

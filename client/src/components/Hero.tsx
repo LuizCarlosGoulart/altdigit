@@ -28,7 +28,7 @@ export function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" className="gradient-bg hover:opacity-90" asChild>
-                <a href="#" className="px-8">Experimente a Calculadora</a>
+                <a href="#" className="px-8">Adquira a Calculadora</a>
               </Button>
               <Button size="lg" variant="outline" onClick={scrollToAbout} className="border-gray-700 hover:border-primary text-gray-300 hover:text-white">
                 Saiba Mais
